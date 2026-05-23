@@ -223,7 +223,6 @@
         }
 
         .modal-header {
-            padding: 166px;
             padding: 16px;
             background-color: var(--primary-olive);
             color: var(--white);
@@ -258,6 +257,18 @@
             border: 0;
         }
 
+        /* تصميم عبارة تقبل الله حجكم المضافة */
+        .blessing-text {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-olive);
+            margin: 40px auto 10px auto;
+            padding: 0 15px;
+            text-shadow: 1px 1px 2px rgba(90, 110, 70, 0.1);
+            letter-spacing: 0.5px;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -266,6 +277,7 @@
             background-color: var(--white);
             margin-top: 20px;
             border-top: 1px solid #edf2f7;
+            line-height: 1.6;
         }
     </style>
 </head>
@@ -355,6 +367,8 @@
 
     </main>
 
+    <div class="blessing-text">تقبل الله حجكم</div>
+
     <div class="video-modal" id="videoModal" onclick="closeVideo()">
         <div class="modal-content" onclick="event.stopPropagation()">
             <div class="modal-header">
@@ -368,7 +382,7 @@
     </div>
 
     <footer>
-        <p>© 2026 شركة محمد خالد قديمي .   اللجنة الثقافية.</p>
+        <p>شركة محمد خالد قديمي - اللجنة الثقافية ١٤٤٧هـ</p>
     </footer>
 
     <script>
